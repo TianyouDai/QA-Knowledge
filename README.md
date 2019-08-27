@@ -217,10 +217,23 @@
   - Sprint backlog: “plan” that divides big task into smaller tasks, usually holds a 3-hour meeting  
   - Daily sprint meeting: spends 10 to 15 minutes to discuss “what I did yesterday and what I am doing today” including non- technical issues. Issues will be fixed after meeting 
   - Potentially shippable product increment: demo the product to customer. If there is anything that customer does not agree, we put customer’s feedback at the bottom of product backlog. The new product backlog will be going through at the beginning of next sprint
-
-
-
-
+### Scrum Framework 
+- Roles 
+  -	Product owner: define the features of the product, decide release date and content
+  - ScrumMaster: management to the project, like informing everyone how the project goes and interactions between different tasks 
+  - Team: typically, 5 – 9 people to finish assigned tasks
+- Ceremonies
+  - Sprint planning: the plan that made at the beginning of a sprint in order to have sprint goal and sprint backlog. Team capacity, product backlog, business conditions, current product, technology are considered. 
+  - Sprint review: the review of the accomplishment at the end of sprint 
+  - Sprint retrospective: similar to sprint review – recall the positive and negative things that we’ve done at the end
+  - Daily scrum meeting: a short meeting to discuss what we did yesterday, what we are doing for today, and any issues in your way, but not for problem solving
+- Artifacts
+  - Product backlog 
+  - Sprint backlog 
+  - Burndown charts
+### Rally Management 
+- Project – online Shopping System
+- Bug Management with Jira
 
  
 
