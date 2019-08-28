@@ -237,21 +237,21 @@
 ### Bug Process and Status
 - Bug Process and Status
 ![](./bug.png)
-  - Create Issue
-    - who can create bug (QA, Dev, Support)
-    - customer can not create bug directly. Customer create &quot;case&quot;, and then support team converts this &quot;case&quot; to &quot;BUG&quot;
-    - internal bug, customer bug
-    - The status of new created bug is &quot;open&quot;
-  - Open --- (Start Progress) ---> In Progress
-    - If the assigner is &quot;Dev Leader&quot;, what will the dev leader do?
-      - Review the bug, if it is not a real bug, we will take later.
-      - If need more study, he will re-assign the bug to developer to study it.
-      - If the bug is confirmed, he will &quot;assign&quot; a developer to work on it.
-    - If you are developer, and you are assigned to this bug. What will you do?
-      - change status from &quot;open&quot; to &quot;in Progress&quot;
-      - If there is enough information to reproduce the bug start fixing. If there is not enough information ask QA for more information.
-      - Working on fixing the bug (locate the problem, remove the problem), this task will take for a while.
-    - As a QA, we help developer to reproduce the problem (provide the details information, such as screenshot, environment, steps).
+- Create Issue
+  - who can create bug (QA, Dev, Support)
+  - customer can not create bug directly. Customer create &quot;case&quot;, and then support team converts this &quot;case&quot; to &quot;BUG&quot;
+  - internal bug, customer bug
+  - The status of new created bug is &quot;open&quot;
+- Open --- (Start Progress) ---> In Progress
+  - If the assigner is &quot;Dev Leader&quot;, what will the dev leader do?
+    - Review the bug, if it is not a real bug, we will take later.
+    - If need more study, he will re-assign the bug to developer to study it.
+    - If the bug is confirmed, he will &quot;assign&quot; a developer to work on it.
+  - If you are developer, and you are assigned to this bug. What will you do?
+    - change status from &quot;open&quot; to &quot;in Progress&quot;
+    - If there is enough information to reproduce the bug start fixing. If there is not enough information ask QA for more information.
+    - Working on fixing the bug (locate the problem, remove the problem), this task will take for a while.
+  - As a QA, we help developer to reproduce the problem (provide the details information, such as screenshot, environment, steps).
 - &quot;In Progress&quot; --- (Resolved Issue) ---> Resolved
   - The developer will change the status to &quot;resolved&quot; after he fixes the problem (Dev tests the problem by himself in his own environment, and he may does not do the regression testing).
 - &quot;Resolved&quot; --- close the bug ---> &quot;Closed&quot;
