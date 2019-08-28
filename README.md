@@ -234,10 +234,39 @@
 ### Rally Management 
 - Project – online Shopping System
 - Bug Management with Jira
-
- 
-
-
-    
-
-
+### Bug Process and Status
+- Bug Process and Status
+![](./bug.png)
+  - Create Issue
+    - who can create bug (QA, Dev, Support)
+    - customer can not create bug directly. Customer create &quot;case&quot;, and then support team converts this &quot;case&quot; to &quot;BUG&quot;
+    - internal bug, customer bug
+    - The status of new created bug is &quot;open&quot;
+  - Open --- (Start Progress) ---> In Progress
+    - If the assigner is &quot;Dev Leader&quot;, what will the dev leader do?
+      - Review the bug, if it is not a real bug, we will take later.
+      - If need more study, he will re-assign the bug to developer to study it.
+      - If the bug is confirmed, he will &quot;assign&quot; a developer to work on it.
+    - If you are developer, and you are assigned to this bug. What will you do?
+      - change status from &quot;open&quot; to &quot;in Progress&quot;
+      - If there is enough information to reproduce the bug start fixing. If there is not enough information ask QA for more information.
+      - Working on fixing the bug (locate the problem, remove the problem), this task will take for a while.
+    - As a QA, we help developer to reproduce the problem (provide the details information, such as screenshot, environment, steps).
+- &quot;In Progress&quot; --- (Resolved Issue) ---> Resolved
+  - The developer will change the status to &quot;resolved&quot; after he fixes the problem (Dev tests the problem by himself in his own environment, and he may does not do the regression testing).
+- &quot;Resolved&quot; --- close the bug ---> &quot;Closed&quot;
+  - QA will re-test (test on more environments and do regression test). Mini regression testing, only test related features? How do you know which featured will be affected?
+  - Source code control system used for developer. The developer will put the code change information into the bug. Most companies allow QA read the code, but do not allow QA to make changes the code. By reading the code, we can understand better which feature may be affected.
+  - Release notes &amp; developer notes
+  - QA starts to work on the test if the problem is gone, and no new problem is found, we are done.
+  - QA changes bug status to &quot;closed&quot;
+- &quot;Open&quot; ---> &quot;Resolved&quot;
+  - Developer changes the status to &quot;resolved&quot; because he thinks that this bug is not required to be worked on. For example, duplicated, not worth to fix, will fix in further future, invalid bug.
+  - QA&#39;s low-quality performance
+- &quot;Open&quot; ---> &quot;closed&quot;
+  - By developer, and it means that there is a lower quality than &quot;Open ---> Resolved&quot;
+- &quot;Resolved&quot; ---> &quot;Reopen&quot;
+  - By QA, and it means that &quot;developer thinks this problem has been fixed, but he is wrong&quot;
+  - Dev&#39;s low-quality performance
+- &quot;Reopen&quot; ---> &quot;Resolved&quot;
+  - By developer, and it means that the developer&#39;s work is done and it&#39;s ready for QA to test
