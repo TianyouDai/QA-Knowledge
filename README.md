@@ -270,3 +270,4 @@
   - Dev&#39;s low-quality performance
 - &quot;Reopen&quot; ---> &quot;Resolved&quot;
   - By developer, and it means that the developer&#39;s work is done and it&#39;s ready for QA to test
+### QTP and basic
