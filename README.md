@@ -1,5 +1,7 @@
-Personal QA notes including QA knowledge and SDLC, QA Management and Tool, and QTP Basic.
-
+# Notes of Quality Assurance
+- QA Knowledge and SDLC 
+- Management Tools
+- Basic QTP 
 ## QA Knowledge and SDLC 
 ### QA Basic Knowledge 3 (May 21)
 - Agile 
