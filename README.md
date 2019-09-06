@@ -2,10 +2,13 @@
 - QA Knowledge and SDLC 
 - Management Tools
 - Basic QTP 
+
 ## QA Knowledge and SDLC 
+
 ### QA Basic Knowledge 3 (May 21)
 - Agile 
 - Test Case: Login Window
+
 ### QA Basic Knowledge 4 (May 21)
 - Essential Software Testing
 - Definition 
@@ -18,11 +21,13 @@
   - My Definition
     - Match Requirement 
     - Find more bugs 
+    
 ### QA Basic Knowledge 5 (May 21)
 - Failures, Defects (bugs), and Mistakes
   - Mistake, made by a human being
   - Causes a defect to be placed in a product, the defect causes no harm as long as it is not encountered by anybody 
   - End user use of the product “hit” the defect, it will give rise to failure 
+  
 ### QA Basic Knowledge 6-7 (May 21)
 - Testing psychology
   - Developers are viewed as “constructive”, testers as “destructive”, and the users just want to do their jobs 
@@ -35,6 +40,7 @@
 - Gray box testing
   - Combination of white box testing and black box testing
   - Knows the internal structure using black box method
+  
 ### QA Basic Knowledge 8 (May 21)
 - Static Testing
   - Form of software testing where the software is not actually used
@@ -48,6 +54,7 @@
 - Non-functional Testing   
 - Regression testing
   - Re-run existing tests against the new release, to determine whether the changes break anything that worked prior to the change
+  
 ### SDLC and Testing Process I
 - SDLC stands for system development life cycle. The software project includes: software development, software testing, and project management. Specifically, project management is the most important and software development is the most well-structured. Disregard of quality testing and relatively few tools in testing were the 2 reasons that software testing was not popular, but this situation was getting better. Testing Process is part of SDLC.
 - Basic lift-cycle models have three categories: requirement driven (waterfall) development model, iterative development model, and agile development model. Iterative development model was replaced by agile development. RDCT in development models: requirements engineering, design, coding, testing.
@@ -58,11 +65,13 @@
   - V-model is a slightly improved version from waterfall model, there are related testing actives right after requirements and design, respectively. The main features: introducing more test levels, testing not only being performed at the end of the development life cycle, left side of the V is the processes to build the software product, and right side of the V is test levels to ensure that we have specified.
 - W-model
   - W-model is a slightly improved version from V-model. Design and Test plan and specification are ongoing simultaneously after requirement. Test p&s and Coding are after Design. Tests are the last state with reports. Test plan and specification is the added feature from V-model. The main features: starts testing from the requirement, more time to plan and specify the test, extra test-related review of documents and code, more time to set up the test environments, and better chance of being ready for test execution as soon as something is ready to test.
+  
 ### Test Levels
 - Acceptance testing: based on and testing of the user requirements. User is majorly involved. BA (business analyst), and technical people are involved to support users' testing.
 - System testing: based on and testing of the software system requirements. Testing is based on the entire system, no individual testing for units internally. Blackbox testing. 
 - Component integration testing: based on and testing the implementation of the architectural design and user interface. Additional tests are required if any units are interacted with others.
 - Unit testing (Component testing): based on and testing the implementation of the detailed design. For example, different developers will develop and test different units internally and individually.
+
 ### The Basic Software Testing Process (7-step)
 1.	Requirement analysis
     - Customer Requirement Document
@@ -79,6 +88,7 @@
 6.	Bug reporting/track/re-test
     - According to the output, if the output is the same to the expectation, then pass. If bug is found, then report the bug, and keep tracking of it. Rerun the test case if the bugs are tested. 
 7.	Final report
+
 ### Test Plan
 1.	Overview 
     - 1.1.	System Overview: Business introduction
@@ -113,6 +123,7 @@
 9.	Risk
     - 9.1.	Technique risk
     - 9.2.	Project Management
+    
 ### Test Case
 - Test Case (What’s test case?)
   - Software Tester Designed
@@ -141,6 +152,7 @@
   - Types: Specification-Based Techniques 
     - In defect-based testing, we are looking at the types of defects we might find in the product under testing
     - The techniques are therefore starting from previous experience, rather than the expected functionality or the structure of the test product
+    
 ### Equivalence Portioning (EP) with Test Case
 - Analysis of requirements
 - Identify equivalence partitioning to cover the requirement (Valid vs. Invalid)
@@ -175,6 +187,7 @@
     - Step 1: Enter age 
     - Step 2: Press Check button
     - Expect result: get a message says “Integer Overflow”
+    
 ### Static Testing Objects: Everything that can be read
 - Types：
   - Informal review 
@@ -197,7 +210,9 @@
   - Author fixes and re-rends quick review to everyone 
 - Online review (code review)
   - Similar to the tech review but no recorder and no moderator 
+  
 ## Management Tool
+
 ### Agile Overview
 - Definition 
   - Scrum is an agile process that allows us to focus on delivering the highest business value in the shortest time.
@@ -209,6 +224,7 @@
   - Working software over comprehensive documentation
   - Customer collaboration over contract negotiation 
   - Responding to change over following a plan 
+  
 ### Scrum Overview
 - General Process of Scrum
   - Product backlog: listed all requirements based on priority, high to low
@@ -216,6 +232,7 @@
   - Sprint backlog: “plan” that divides big task into smaller tasks, usually holds a 3-hour meeting  
   - Daily sprint meeting: spends 10 to 15 minutes to discuss “what I did yesterday and what I am doing today” including non- technical issues. Issues will be fixed after meeting 
   - Potentially shippable product increment: demo the product to customer. If there is anything that customer does not agree, we put customer’s feedback at the bottom of product backlog. The new product backlog will be going through at the beginning of next sprint
+  
 ### Scrum Framework 
 - Roles 
   -	Product owner: define the features of the product, decide release date and content
@@ -230,9 +247,11 @@
   - Product backlog 
   - Sprint backlog 
   - Burndown charts
+  
 ### Rally Management 
 - Project – online Shopping System
 - Bug Management with Jira
+
 ### Bug Process and Status
 - Bug Process and Status
 ![](./bug.png)
@@ -269,4 +288,28 @@
   - Dev&#39;s low-quality performance
 - &quot;Reopen&quot; ---> &quot;Resolved&quot;
   - By developer, and it means that the developer&#39;s work is done and it&#39;s ready for QA to test
-### QTP and basic
+
+## QTP and basic
+
+## QTP Version
+- 11.5 – Released in Dec 2012
+- 11.0 – Released in 2010
+- 10.0 – Released in 2009
+- 9.5 – Released in 2008
+
+## Create automation test case (Code &amp; Record)
+- High level: code
+- Low level: record
+
+## Create single QTP script in daily work
+- Prepare – Setup for test automation
+  - Document manual test steps
+  - Check environment is ready and data is valid
+- Create – Create basic test
+  - Create the test script and confirm playback
+- Enhance – Enhance basic test
+  - Use QTP features, like splitting different functions into different actions
+  - Insert checkpoint
+  - split parameters into action parameter and split data into data table
+- Product – production
+  - Put it into framework after making sure everything is running well
