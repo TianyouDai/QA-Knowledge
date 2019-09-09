@@ -5,11 +5,11 @@
 
 ## QA Knowledge and SDLC 
 
-### QA Basic Knowledge 3 (May 21)
+### QA Basic Knowledge 3
 - Agile 
 - Test Case: Login Window
 
-### QA Basic Knowledge 4 (May 21)
+### QA Basic Knowledge 4 
 - Essential Software Testing
 - Definition 
   - IEEE829
@@ -22,13 +22,13 @@
     - Match Requirement 
     - Find more bugs 
     
-### QA Basic Knowledge 5 (May 21)
+### QA Basic Knowledge 5
 - Failures, Defects (bugs), and Mistakes
   - Mistake, made by a human being
   - Causes a defect to be placed in a product, the defect causes no harm as long as it is not encountered by anybody 
   - End user use of the product “hit” the defect, it will give rise to failure 
   
-### QA Basic Knowledge 6-7 (May 21)
+### QA Basic Knowledge 6-7
 - Testing psychology
   - Developers are viewed as “constructive”, testers as “destructive”, and the users just want to do their jobs 
 - Black box testing
@@ -41,7 +41,7 @@
   - Combination of white box testing and black box testing
   - Knows the internal structure using black box method
   
-### QA Basic Knowledge 8 (May 21)
+### QA Basic Knowledge 8
 - Static Testing
   - Form of software testing where the software is not actually used
   - Check the design, documents, and read the code
