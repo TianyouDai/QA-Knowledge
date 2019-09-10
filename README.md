@@ -313,3 +313,22 @@
   - split parameters into action parameter and split data into data table
 - Product – production
   - Put it into framework after making sure everything is running well
+
+## Create single QTP script in daily work
+- Prepare – Setup for test automation
+  - Document manual test steps
+  - Check environment is ready and data is valid
+- Create – Create basic test 
+  - Create the test script and confirm playback
+  - Enhance – Enhance basic test 
+  - Use QTP features, like splitting different functions into different actions
+  - Insert checkpoint
+  - split parameters into action parameter and split data into data table
+- Product – production 
+  - Put it into framework after making sure everything is running well
+
+## Types of Object Repository: local and global 
+
+## QTP object fail error
+- Cannot find object 
+- The objects are not unique 
