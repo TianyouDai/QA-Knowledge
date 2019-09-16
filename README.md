@@ -2,6 +2,7 @@
 - QA Knowledge and SDLC 
 - Management Tools
 - Basic QTP 
+- Advanced QTP - Automation Project
 
 ## QA Knowledge and SDLC 
 
@@ -291,17 +292,17 @@
 
 ## QTP and basic
 
-## QTP Version
+### QTP Version
 - 11.5 – Released in Dec 2012
 - 11.0 – Released in 2010
 - 10.0 – Released in 2009
 - 9.5 – Released in 2008
 
-## Create automation test case (Code &amp; Record)
+### Create automation test case (Code &amp; Record)
 - High level: code
 - Low level: record
 
-## Create single QTP script in daily work
+### Create single QTP script in daily work
 - Prepare – Setup for test automation
   - Document manual test steps
   - Check environment is ready and data is valid
@@ -314,7 +315,7 @@
 - Product – production
   - Put it into framework after making sure everything is running well
 
-## Create single QTP script in daily work
+### Create single QTP script in daily work
 - Prepare – Setup for test automation
   - Document manual test steps
   - Check environment is ready and data is valid
@@ -327,8 +328,16 @@
 - Product – production 
   - Put it into framework after making sure everything is running well
 
-## Types of Object Repository: local and global 
+### Types of Object Repository: local and global 
 
-## QTP object fail error
+### QTP object fail error
 - Cannot find object 
 - The objects are not unique 
+
+## Advanced QTP  – Automation Project
+
+### Automation Process (4 steps)
+- Planning and Analysis
+- Design
+- Coding
+- Production Execution and Maintenance
