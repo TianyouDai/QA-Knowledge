@@ -326,7 +326,7 @@
   - Insert checkpoint
   - split parameters into action parameter and split data into data table
 - Product – production 
-  - Put it into framework after making sure everything is running well
+  - Put it into framework after making sure everything runs well
 
 ### Types of Object Repository: local and global 
 
